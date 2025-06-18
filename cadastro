@@ -1,19 +1,198 @@
-<div style="width: 1440px; height: 1226px; position: relative; background: #5132C3; overflow: hidden">
-    <div style="width: 688px; height: 847px; left: 376px; top: 189px; position: absolute; background: white; border-radius: 35px"></div>
-    <div style="width: 514px; height: 68px; left: 463px; top: 522px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 12px"></div>
-    <div style="width: 514px; height: 68px; left: 463px; top: 616px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 12px"></div>
-    <div style="width: 257px; height: 60px; left: 591px; top: 920px; position: absolute; background: black; border-radius: 12px"></div>
-    <div style="left: 486px; top: 543px; position: absolute; color: #958F8F; font-size: 20px; font-family: Inder; font-weight: 400; word-wrap: break-word">Email</div>
-    <div style="left: 486px; top: 637px; position: absolute; color: #958F8F; font-size: 20px; font-family: Inder; font-weight: 400; word-wrap: break-word">Telefone</div>
-    <div style="left: 660px; top: 930px; position: absolute; color: white; font-size: 32px; font-family: Inder; font-weight: 400; word-wrap: break-word">ENTRAR</div>
-    <div style="width: 514px; height: 68px; left: 463px; top: 240px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 12px"></div>
-    <div style="left: 486px; top: 261px; position: absolute; color: #958F8F; font-size: 20px; font-family: Inder; font-weight: 400; word-wrap: break-word">Nome</div>
-    <div style="width: 514px; height: 68px; left: 463px; top: 334px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 12px"></div>
-    <div style="left: 486px; top: 355px; position: absolute; color: #958F8F; font-size: 20px; font-family: Inder; font-weight: 400; word-wrap: break-word">Sobrenome</div>
-    <div style="width: 514px; height: 68px; left: 463px; top: 428px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 12px"></div>
-    <div style="left: 486px; top: 449px; position: absolute; color: #958F8F; font-size: 20px; font-family: Inder; font-weight: 400; word-wrap: break-word">CPF</div>
-    <div style="width: 514px; height: 68px; left: 463px; top: 710px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 12px"></div>
-    <div style="left: 486px; top: 731px; position: absolute; color: #958F8F; font-size: 20px; font-family: Inder; font-weight: 400; word-wrap: break-word">CEP</div>
-    <div style="width: 514px; height: 68px; left: 463px; top: 804px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 12px"></div>
-    <div style="left: 486px; top: 825px; position: absolute; color: #958F8F; font-size: 20px; font-family: Inder; font-weight: 400; word-wrap: break-word">Senha</div>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="cadastro">
+    		<div class="cadastro-child">
+    		</div>
+    		<div class="cadastro-item">
+    		</div>
+    		<div class="cadastro-inner">
+    		</div>
+    		<div class="rectangle-div">
+    		</div>
+    		<div class="email">Email</div>
+    		<div class="telefone">Telefone</div>
+    		<div class="entrar">ENTRAR</div>
+    		<div class="cadastro-child1">
+    		</div>
+    		<div class="nome">Nome</div>
+    		<div class="cadastro-child2">
+    		</div>
+    		<div class="sobrenome">Sobrenome</div>
+    		<div class="cadastro-child3">
+    		</div>
+    		<div class="cpf">CPF</div>
+    		<div class="cadastro-child4">
+    		</div>
+    		<div class="cep">CEP</div>
+    		<div class="cadastro-child5">
+    		</div>
+    		<div class="senha">Senha</div>
+  	</div>
+  	
+  	<style>
+		.cadastro-child {
+  	position: absolute;
+  	top: 189px;
+  	left: 418px;
+  	border-radius: 35px;
+  	background-color: #fff;
+  	width: 688px;
+  	height: 847px;
+}
+.cadastro-item {
+  	position: absolute;
+  	top: 522px;
+  	left: 505px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 12px;
+  	background-color: #d9d9d9;
+  	width: 514px;
+  	height: 68px;
+}
+.cadastro-inner {
+  	position: absolute;
+  	top: 616px;
+  	left: 505px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 12px;
+  	background-color: #d9d9d9;
+  	width: 514px;
+  	height: 68px;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 920px;
+  	left: 633px;
+  	border-radius: 12px;
+  	background-color: #000;
+  	width: 257px;
+  	height: 60px;
+}
+.email {
+  	position: absolute;
+  	top: 543px;
+  	left: 528px;
+}
+.telefone {
+  	position: absolute;
+  	top: 637px;
+  	left: 528px;
+}
+.entrar {
+  	position: absolute;
+  	top: 930px;
+  	left: 702px;
+  	font-size: 32px;
+  	color: #fff;
+}
+.cadastro-child1 {
+  	position: absolute;
+  	top: 240px;
+  	left: 505px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 12px;
+  	background-color: #d9d9d9;
+  	width: 514px;
+  	height: 68px;
+}
+.nome {
+  	position: absolute;
+  	top: 261px;
+  	left: 528px;
+}
+.cadastro-child2 {
+  	position: absolute;
+  	top: 334px;
+  	left: 505px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 12px;
+  	background-color: #d9d9d9;
+  	width: 514px;
+  	height: 68px;
+}
+.sobrenome {
+  	position: absolute;
+  	top: 355px;
+  	left: 528px;
+}
+.cadastro-child3 {
+  	position: absolute;
+  	top: 428px;
+  	left: 505px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 12px;
+  	background-color: #d9d9d9;
+  	width: 514px;
+  	height: 68px;
+}
+.cpf {
+  	position: absolute;
+  	top: 449px;
+  	left: 528px;
+}
+.cadastro-child4 {
+  	position: absolute;
+  	top: 710px;
+  	left: 505px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 12px;
+  	background-color: #d9d9d9;
+  	width: 514px;
+  	height: 68px;
+}
+.cep {
+  	position: absolute;
+  	top: 731px;
+  	left: 528px;
+}
+.cadastro-child5 {
+  	position: absolute;
+  	top: 804px;
+  	left: 505px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 12px;
+  	background-color: #d9d9d9;
+  	width: 514px;
+  	height: 68px;
+}
+.senha {
+  	position: absolute;
+  	top: 825px;
+  	left: 528px;
+}
+.cadastro {
+  	width: 100%;
+  	position: relative;
+  	background-color: #5132c3;
+  	height: 1226px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #958f8f;
+  	font-family: Inder;
+}
+
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+
+
+	</style>
+  	
+  	
+</body>
+</html>
